@@ -1,0 +1,3 @@
+*SRC=DFLR1400;DFLR1400;Diodes;Si;  400V  1.00A  3.00us   Diodes Inc Standard Recovery Rectifier
+.MODEL DFLR1400 D  ( IS=5.90n RS=44.7m BV=400 IBV=3.00u
++ CJO=18.5p  M=0.333 N=1.88 TT=4.32u )
