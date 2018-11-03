@@ -1484,24 +1484,24 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TL074 U1
 U 1 1 5C3ACAA6
-P 8800 4000
-F 0 "U1" H 8800 3633 50  0000 C CNN
-F 1 "TL074" H 8800 3724 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8750 4100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8850 4200 50  0001 C CNN
-	1    8800 4000
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U1
-U 2 1 5C3B8D4C
 P 8750 5650
 F 0 "U1" H 8750 5283 50  0000 C CNN
 F 1 "TL074" H 8750 5374 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8700 5750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 5850 50  0001 C CNN
-	2    8750 5650
+	1    8750 5650
 	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U1
+U 2 1 5C3B8D4C
+P 13350 4200
+F 0 "U1" H 13350 3833 50  0000 C CNN
+F 1 "TL074" H 13350 3924 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13300 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 13400 4400 50  0001 C CNN
+	2    13350 4200
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 U1
@@ -1517,12 +1517,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL074 U1
 U 4 1 5C3C507F
-P 13350 4200
-F 0 "U1" H 13350 3833 50  0000 C CNN
-F 1 "TL074" H 13350 3924 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 13300 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 13400 4400 50  0001 C CNN
-	4    13350 4200
+P 8800 4000
+F 0 "U1" H 8800 3633 50  0000 C CNN
+F 1 "TL074" H 8800 3724 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8750 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8850 4200 50  0001 C CNN
+	4    8800 4000
 	1    0    0    1   
 $EndComp
 $Comp
