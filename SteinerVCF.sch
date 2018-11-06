@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SteinerVCF-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1151,7 +1150,7 @@ U 1 1 5BDD469D
 P 4250 7950
 F 0 "RV4" V 4136 7950 50  0000 C CNN
 F 1 "2k" V 4045 7950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 4250 7950 50  0001 C CNN
+F 2 "Local:Bourns3296WV" H 4250 7950 50  0001 C CNN
 F 3 "~" H 4250 7950 50  0001 C CNN
 	1    4250 7950
 	1    0    0    -1  
