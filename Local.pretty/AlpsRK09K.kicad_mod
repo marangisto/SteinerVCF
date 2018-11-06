@@ -1,4 +1,4 @@
-(module AlpsRK09K (layer F.Cu) (tedit 5B6FC0F2)
+(module AlpsRK09K (layer F.Cu) (tedit 5BE1342F)
   (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
   (tags "Potentiometer vertical Alps RK09K Single")
   (fp_text reference REF** (at 0 -3.81 180) (layer F.SilkS)
@@ -37,5 +37,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/Local.pretty/RK097N.step
+    (offset (xyz 0 0 7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
